@@ -1,12 +1,41 @@
 body {
-	
+	background-color: antiquewhite;
+}
+
+div.box {
+	position: relative;
+	width: 940px;
+	margin: auto;
+}
+
+header {
+	background-color: grey;
+}
+
+nav {
+	position: absolute;
+	right: 0;
+	top: 100px;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: .8em;
 }
 
 #banner {
-	width:100%;
+	width: 100%;
 }
 
-.principal{
+.principal {
 	background: #CCCCCC;
 	padding: 30px;
 }
@@ -38,13 +67,6 @@ em strong {
 .beneficios {
 	background: #FFFFFF;
 	padding: 20px;
-}
-
-ul {
-	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
 }
 
 .imagembeneficios {
