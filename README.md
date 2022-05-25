@@ -8,4 +8,4 @@ git clone git@github.com:andreluis29/cursohtml5css3.git
 
 ## Usage
 
-Open .index files and enjoy!
+Open .html files and enjoy!
